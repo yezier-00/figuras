@@ -1,0 +1,13 @@
+
+package graficacion;
+import java.awt.*;
+import javax.swing.*;
+public class ventana extends JPanel{
+private static final int ancho=500,alto=500;
+public ventana() {
+	//setTitle("Figuras");
+	setSize(ancho,alto);		//asigar dimensiones ventana
+	setLocation(ancho/2,alto/2);//localizacion dela ventana
+}
+}
+//zamora esparza yezier cruz
