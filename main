@@ -1,0 +1,19 @@
+package graficacion;
+import javax.swing.JFrame;
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Areadedibujo dib=new Areadedibujo();
+ventana obj=new ventana();
+JFrame ventana=new JFrame("Figuras");
+
+ventana.add(dib);
+ventana.setSize(500,500);//tamaño ventana
+ventana.setVisible(true);//hacerla visible
+ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+	}
+
+}
+//zamora esparza yezier cruz
