@@ -1,0 +1,28 @@
+package graficacion;
+
+import javax.swing.JPanel;
+import java.awt.Color;
+import java.awt.Graphics;
+public class Areadedibujo extends JPanel{
+public  Areadedibujo() {
+	setBackground(Color.WHITE);
+}
+public void paint(Graphics g) {
+	super.paint(g);
+//asiganar color	
+g.setColor(Color.BLUE);			
+g.fillOval(130,30,50,50);		//dimencion del circulo
+g.setColor(Color.red);			//asignar color
+g.fillOval(230,30,30,50);		//dimension del ovalo
+g.drawOval(230,30,30,50);
+///g.drawLine(0, 50,30,30);
+g.setColor(Color.GREEN);
+g.fillRect(30, 30, 80, 40);		//dimension rectangulo contorno
+g.drawRect(30, 30, 80, 40); 	//relleno de figura
+//g.setColor(Color.black);
+//g.drawRect(50, 50, 30, 30);
+
+
+}
+}
+//zamora esparza yezier cruz
